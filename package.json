@@ -1,0 +1,21 @@
+{
+  "name": "shaft-app",
+  "version": "1.0.0",
+  "description": "شفط - منصة طلب شاحنات الصرف الصحي في السودان",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js",
+    "dev": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "nanoid": "^3.3.19"
+  }
+}
